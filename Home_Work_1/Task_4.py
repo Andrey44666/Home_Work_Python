@@ -8,7 +8,7 @@ n = int(input('Enter the first value: '))
 m = int(input('Enter the second value: '))
 k = int(input('Enter the third value: '))
 
-if k < m*n and (k % m == 0 or k % n == 0):
+if k < m * n and (k % m == 0 or k % n == 0):
     print('-> yes')
 else:
     print('-> no')
