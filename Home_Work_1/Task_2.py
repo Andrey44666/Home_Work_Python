@@ -8,8 +8,8 @@
 
 Sum = int (input('Enter a number: '))
 
-P = (Sum / 3) / 2
-S = (Sum / 3) / 2
+P = Sum // 3 // 2
+S = Sum // 3 // 2
 K = (P + S) * 2
 
 print(int(P), int(K), int(S))
