@@ -17,8 +17,8 @@ a2 = n2 // 100
 b2 = n2 // 10 % 10
 c2 = n2 % 10
 
-sum1 = a1+b1+c1
-sum2 = a2+b2+c2
+sum1 = a1 + b1 + c1
+sum2 = a2 + b2 + c2
 rez = sum1 == sum2
 
 print(rez)
