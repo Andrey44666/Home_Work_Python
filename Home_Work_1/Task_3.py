@@ -7,9 +7,9 @@
 
 n = int(input('Enter the six-digit travel ticket number: '))
 
-n1 = n//1000
-a1 = n1//100
-b1 = n1//10 % 10
+n1 = n // 1000
+a1 = n1 // 100
+b1 = n1 // 10 % 10
 c1 = n1 % 10
 
 n2 = n % 1000
