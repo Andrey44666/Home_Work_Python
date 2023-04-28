@@ -14,7 +14,7 @@ print(some_list)
 x = int(input("Введите число x: "))
 sumX = 0
 
-for i in range(0, len(some_list)):
+for i in range(n):
     if x == some_list[i]:
         sumX += 1
 
