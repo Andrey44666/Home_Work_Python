@@ -7,4 +7,24 @@
 # *Пример:*
 
 # **Ввод:** пара-ра-рам рам-пам-папам па-ра-па-да    
-#     **Вывод:** Парам пам-пам  
+#     **Вывод:** Парам пам-пам.
+
+def stepbit():
+  from functools import reduce
+  poem = {'у','е','ы','а','о','э','я','и','ю'} 
+
+  def determining_rhythm (list_1):
+      list_1 = list_1.lower().split()
+      dict_1 = set()
+      use_def = None
+      for i in list_1:
+          def_use = len(list(filter(lambda x:True if x in poem else False,i))) 
+          dict_1.add(use_def)                  
+          if len(dict_1) > 1 or def_use == 0:  
+            return print("Пам парам")          
+      return print("Парам пам-пам")               
+          
+  str_1 = input("Введите свою кричалку: ")
+  determining_rhythm (str_1)
+
+stepbit()
