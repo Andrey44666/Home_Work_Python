@@ -18,7 +18,7 @@ def stepbit():
       dict_1 = set()
       use_def = None
       for i in list_1:
-          def_use = len(list(filter(lambda x:True if x in poem else False,i))) 
+          def_use = len(list(filter(lambda x: x in poem, i))) 
           dict_1.add(use_def)                  
           if len(dict_1) > 1 or def_use == 0:  
             return print("Пам парам")          
